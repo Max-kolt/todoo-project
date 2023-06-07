@@ -84,7 +84,7 @@ const RegisterForm = () => {
         />
 
         <Button variant="contained" type="submit" className="input">
-          Log In
+          Register
         </Button>
       </div>
     </form>
