@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+body {
+  background-color: rgb(201, 215, 255);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+
+.auth-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth-pannel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 500px;
+  height: fit-content;
+  padding: 40px;
+  gap: 36px;
+}
+
+.form {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 400px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 97vw;
+  padding: 16px 24px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 80vw;
+}
